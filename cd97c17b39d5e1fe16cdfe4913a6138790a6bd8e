@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "901c35c7_45d7ecdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1561651
+      },
+      "writtenOn": "2024-09-16T05:45:48Z",
+      "side": 1,
+      "message": "Pete, this change removes the Android-specific blocklists that were added to BouncyCastle. PTAL. Thanks.",
+      "revId": "cd97c17b39d5e1fe16cdfe4913a6138790a6bd8e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
