@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2450a96_6ff459df",
+        "filename": "bcprov/src/main/java/org/bouncycastle/jce/provider/PKIXCertPathValidatorSpi.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2024-09-16T07:39:28Z",
+      "side": 0,
+      "message": "Huh, this should probably never have been implemented here anyway... BC.CertPath is public (for now) so shouldn\u0027t impose contain Android Platform policies, they should have done it elsewhere, e.g. in X509TrustManager.",
+      "revId": "cef3f706d4ed01042219d1c94be84965e5728efd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
