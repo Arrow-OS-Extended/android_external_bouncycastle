@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8708c569_2c47b943",
+        "filename": "proguard.flags",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-09-17T18:56:07Z",
+      "side": 1,
+      "message": "I tried a few different granularities for the keep rules - see PS1. Higher granularity allows more minification but also brings a higher risk of missing uses that requires more iterations.\n\nFindings:\n\n- R8 reinstated without any OEM exceptions (baseline): 1007 KiB\n- R8 reinstated with ASN1 exception CL https://r.android.com/3204497: 1028 KiB, +2.0%\n- R8 reinstated with method granularity: 1027 KiB, +1.9%\n- R8 reinstated with class granularity: 1039 KiB, +3.2%\n- R8 reinstated with package prefix granularity: 1084 KiB, +7.6%\n- No R8, i.e. before this CL: 1420 KiB, +41.0%\n\nBased on this I\u0027m somewhat arbitrarily opting for class level granularity, but it\u0027s of course possible to mix and I\u0027m open for any suggestions to strike a good balance.",
+      "revId": "748ab7ceaa70c9f510cfd9b4915b1ba6bab87357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
