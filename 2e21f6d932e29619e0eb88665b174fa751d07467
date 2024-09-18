@@ -22,6 +22,30 @@
       },
       "revId": "2e21f6d932e29619e0eb88665b174fa751d07467",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd0ddafe_c69f3e9d",
+        "filename": "proguard.flags",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-09-18T12:22:49Z",
+      "side": 1,
+      "message": "Thanks, that shaved off another 2 KiB (from `utils.encoders.Base64`, provided we don\u0027t need to keep it for other reasons).",
+      "parentUuid": "f935f650_73b1a740",
+      "range": {
+        "startLine": 181,
+        "startChar": 50,
+        "endLine": 181,
+        "endChar": 67
+      },
+      "revId": "2e21f6d932e29619e0eb88665b174fa751d07467",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
