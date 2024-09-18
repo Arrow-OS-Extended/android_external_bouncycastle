@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f935f650_73b1a740",
+        "filename": "proguard.flags",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2024-09-18T09:08:13Z",
+      "side": 1,
+      "message": "I believe tweek@ has removed the CertBlockList logic from BC now, so you can probably drop this.",
+      "range": {
+        "startLine": 181,
+        "startChar": 50,
+        "endLine": 181,
+        "endChar": 67
+      },
+      "revId": "2e21f6d932e29619e0eb88665b174fa751d07467",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
