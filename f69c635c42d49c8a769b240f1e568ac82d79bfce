@@ -16,6 +16,24 @@
       "message": "Please mention the reason for this.",
       "revId": "f69c635c42d49c8a769b240f1e568ac82d79bfce",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "571054a2_138a6273",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1893966
+      },
+      "writtenOn": "2024-11-01T12:26:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3022fc5_2af49159",
+      "revId": "f69c635c42d49c8a769b240f1e568ac82d79bfce",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
