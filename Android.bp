@@ -176,7 +176,7 @@ unbundled_visibility = [
     "//packages/apps/CertInstaller",
     "//packages/apps/KeyChain",
     "//packages/apps/RemoteProvisioner/tests/unittests",
-    "//packages/modules/Connectivity/tests/cts/net",
+    "//packages/modules/Connectivity:__subpackages__",
     "//packages/modules/RemoteKeyProvisioning/app/tests/unit",
     "//packages/modules/Virtualization/tests/vm_attestation",
     "//packages/modules/Wifi/service",
@@ -205,7 +205,10 @@ java_library {
     sdk_version: "core_current",
     min_sdk_version: "30",
     java_version: "1.7",
-    apex_available: ["com.android.wifi"],
+    apex_available: [
+        "com.android.tethering",
+        "com.android.wifi",
+    ],
 }
 
 // Bouncycastle PKIX classes in the original org.bouncycastle package for use
