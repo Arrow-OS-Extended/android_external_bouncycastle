@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdff6523_ded71126",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2025-02-07T17:25:01Z",
+      "side": 1,
+      "message": "Can you tidy up the commit message a bit, please, a big string of \"revert\"s is hard to read.",
+      "revId": "5cae464ee36446495820eee000f8f949f4a00c90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
