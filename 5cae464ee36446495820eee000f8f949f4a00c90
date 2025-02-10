@@ -16,6 +16,24 @@
       "message": "Can you tidy up the commit message a bit, please, a big string of \"revert\"s is hard to read.",
       "revId": "5cae464ee36446495820eee000f8f949f4a00c90",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "334e0c08_c80a9016",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1893966
+      },
+      "writtenOn": "2025-02-10T19:39:59Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "fdff6523_ded71126",
+      "revId": "5cae464ee36446495820eee000f8f949f4a00c90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
