@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ed49060_4658f7fc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1334152
+      },
+      "writtenOn": "2025-02-12T15:22:11Z",
+      "side": 1,
+      "message": "Did this test catch the issue?  If so then please add it to the TEST_MAPPING so we can catch similar issues in presubmit.\n\nAnd if not then please add a test.",
+      "range": {
+        "startLine": 13,
+        "startChar": 6,
+        "endLine": 13,
+        "endChar": 24
+      },
+      "revId": "acc92318927fe99cef362d0166078e343db746f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
