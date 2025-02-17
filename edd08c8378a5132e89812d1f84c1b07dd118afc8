@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95a9573b_8361fea3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1863710
+      },
+      "writtenOn": "2025-02-17T10:56:18Z",
+      "side": 1,
+      "message": "Please add bug number and test",
+      "revId": "edd08c8378a5132e89812d1f84c1b07dd118afc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
