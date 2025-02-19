@@ -16,6 +16,24 @@
       "message": "Seems like a quite lot of code to add... Was the usage not migrated from ASN1Foo to DERFoo? In which case maybe we can just add a DERFoo which inherits ASN1Foo unchanged?  Seems like it\u0027s worth investigating.",
       "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f5c13ac_a1cd3a9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1893966
+      },
+      "writtenOn": "2025-02-19T11:15:53Z",
+      "side": 1,
+      "message": "Yeah looks like I can do that if I inherit from BER instead in 2 classes and I maintain the DERObjectIdentifier(byte) constructor. But it\u0027s much less code than before.",
+      "parentUuid": "f05e9c9e_7fa349c0",
+      "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
