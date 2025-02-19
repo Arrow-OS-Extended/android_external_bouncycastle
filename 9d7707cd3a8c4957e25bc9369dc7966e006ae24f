@@ -34,6 +34,24 @@
       "parentUuid": "f05e9c9e_7fa349c0",
       "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33195bd4_9fff1e1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2025-02-19T12:18:13Z",
+      "side": 1,
+      "message": "I don\u0027t find any of these in the keep rules I (so far) plan to use, i.e. the ones reverted in https://r.android.com/3386700. So they would get shrunk away again in the BCP. But until the dust has settled there it may be nice separate these two issues (i.e. it\u0027s easy to add them to the keep rules if they turn out to be used).\n\nWhen did they get removed in the first place?",
+      "parentUuid": "6f5c13ac_a1cd3a9a",
+      "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
