@@ -52,6 +52,24 @@
       "parentUuid": "6f5c13ac_a1cd3a9a",
       "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06429c66_13cbf54a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1893966
+      },
+      "writtenOn": "2025-02-19T12:50:48Z",
+      "side": 1,
+      "message": "Yeah that\u0027s what we were thinking. They only got removed last week: aosp/3477235",
+      "parentUuid": "33195bd4_9fff1e1f",
+      "revId": "9d7707cd3a8c4957e25bc9369dc7966e006ae24f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
