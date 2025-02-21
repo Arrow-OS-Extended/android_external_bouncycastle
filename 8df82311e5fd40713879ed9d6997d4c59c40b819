@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87609a4c_1d4316e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2025-02-21T14:03:56Z",
+      "side": 1,
+      "message": "PS2 adds usages from b/365088430#comment10, conservatively keeping all public methods if any is used in a class.\n\nAs opposed to earlier CLs that tried to add keep rules, this one doesn\u0027t enable R8 optimization - it\u0027s just pure shrinking.",
+      "revId": "8df82311e5fd40713879ed9d6997d4c59c40b819",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
