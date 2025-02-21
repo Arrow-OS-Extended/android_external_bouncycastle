@@ -16,6 +16,23 @@
       "message": "PS2 adds usages from b/365088430#comment10, conservatively keeping all public methods if any is used in a class.\n\nAs opposed to earlier CLs that tried to add keep rules, this one doesn\u0027t enable R8 optimization - it\u0027s just pure shrinking.",
       "revId": "8df82311e5fd40713879ed9d6997d4c59c40b819",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45b11a3d_a62c66ef",
+        "filename": "proguard.flags",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2025-02-21T15:13:23Z",
+      "side": 1,
+      "message": "Note I haven\u0027t updated this list since the first take in https://r.android.com/2901219 a year ago, except it includes the `ECCurve$Fp` addition from https://r.android.com/3108037 (but not the `AES$CFB` one from https://r.android.com/3326237, because that attempt didn\u0027t help with performance regressions).\n\nSo if there have been changes to supported algorithms since then please let me know.",
+      "revId": "8df82311e5fd40713879ed9d6997d4c59c40b819",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
